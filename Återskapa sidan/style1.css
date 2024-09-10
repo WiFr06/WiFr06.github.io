@@ -1,0 +1,35 @@
+* 
+    body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        color: white;
+    }
+
+    h1 {
+        
+        text-align: center;
+        font-size: 75px;
+    }
+
+    .image {
+       max-width: 300px;
+       display: flex;
+    }
+
+    p {
+        
+        margin-top: 0;
+        display: flex;
+    }
+
+    .flex {
+        display: flex;
+        gap: 10px;
+       
+    }
+
+    nav {
+       
+        width: 60%;
+        margin: 0 auto;
+    }
