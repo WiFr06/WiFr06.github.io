@@ -12,9 +12,9 @@ body {
     grid: auto / 20% 1fr;
 }
 
-aside {
+/* aside { */
      /* background-color: darkgreen;  */
-}
+/* } */
 
 .aside-profile {
     background-color: blueviolet;
