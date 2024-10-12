@@ -1,0 +1,29 @@
+.Hogwarts-Menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Houses {
+    display: flex;
+    justify-content:space-between;
+    margin: 50px;
+    margin-top: 175px;
+
+}
+
+.Gryffindor {
+    background-color: #740001;
+}
+
+.Slytherin {
+    background-color: #1A472A;
+}
+
+.Ravenclaw {
+    background-color: #0E1A40;
+}
+
+.Hufflepuff {
+    background-color: #FFD800;
+}
