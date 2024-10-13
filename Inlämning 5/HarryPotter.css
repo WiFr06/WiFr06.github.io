@@ -14,16 +14,22 @@
 
 .Gryffindor {
     background-color: #740001;
+    margin-right: 25px;
 }
 
 .Slytherin {
     background-color: #1A472A;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .Ravenclaw {
     background-color: #0E1A40;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .Hufflepuff {
     background-color: #FFD800;
+    margin-left: 25px;
 }
