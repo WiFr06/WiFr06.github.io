@@ -8,6 +8,7 @@
     height: 9rem;
     width: 200px;
     height: auto;
+    position: absolute;
 }
 
 
@@ -15,16 +16,31 @@
     margin-right: auto;
     display: flex;
     justify-content: center;
-    
+    position: relative;
+    height: 150px;
+    background-color: #8E8A8A;
+    border-radius: 0 0 15px 15px;
+    list-style-type: none;
+}
+
+.Hogwarts-Menu li {
+    margin-bottom: 150px;
+}
+
+.Hogwarts-Menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.Länkar {
+    top: 200px;
 }
 
 
 .Houses {
     display: flex;
     justify-content:space-between;
-    /* margin: 50px; */
-    /* margin-top: 175px; */
-
+    margin-top: -15px;
 }
 
 
@@ -35,9 +51,11 @@
 
 .Gryffindor {
     background-color: #740001;
-    /* margin-right: 25px; */
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -49,8 +67,9 @@
 .Slytherin {
     background-color: #1A472A;
     width: 100%;
-    /* margin-left: 25px; */
-    /* margin-right: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Ravenclaw {
@@ -61,8 +80,9 @@
 .Ravenclaw {
     background-color: #0E1A40;
     width: 100%;
-    /* margin-left: 25px; */
-    /* margin-right: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Hufflepuff {
@@ -73,5 +93,7 @@
 .Hufflepuff {
     background-color: #FFD800;
     width: 100%;
-    /* margin-left: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
