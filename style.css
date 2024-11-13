@@ -31,3 +31,7 @@ h1 {
     margin-left: 15px;
     text-decoration: none;
 }
+
+.länkar a:hover {
+    background-color: grey;
+}
