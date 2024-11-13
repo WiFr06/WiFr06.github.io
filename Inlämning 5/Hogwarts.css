@@ -10,6 +10,7 @@ body {
     width: 200px;
     height: auto;
     position: absolute;
+    z-index: 99;
 }
 
 
@@ -22,10 +23,13 @@ body {
     background-color: #8E8A8A;
     border-radius: 0 0 15px 15px;
     list-style-type: none;
+    /* animation: growDown 3000ms ease-in-out forwards;
+    transform-origin: top center; */
 }
 
+
 .Hogwarts-Menu li {
-    margin-top: 140px;
+    margin-top: 120px;
 }
 
 .Hogwarts-Menu a {
@@ -34,6 +38,10 @@ body {
 }
 
 .Länkar {
+    /* display: none; */
+    /* height: 0; */
+    z-index: -1;
+    opacity: 0;
     font-family: "Irish Grover", system-ui;
     top: 150px;
     background-color: #8E8A8A;
@@ -42,6 +50,19 @@ body {
     width: 550px;
     text-align: center;
     border-radius: 0 0 15px 15px;
+    font-size: 40px;
+    transition: ease-in-out 200ms;
+}
+
+.Länkar a:hover {
+    text-decoration: underline;
+}
+
+.Hogwarts-Menu:hover .Länkar {
+    display: block;
+    /* height: 100%; */
+    opacity: 1;
+    z-index: 2;
 }
 
 
@@ -55,6 +76,7 @@ body {
 #Gryffindor {
     width: 300px;
     height: auto;
+
 }
 
 .Gryffindor {
@@ -64,8 +86,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: ease-in-out 200ms;
 }
+
+.Gryffindor:hover {
+    width: 150%;
+}
+
 
 #Slytherin {
     width: 300px;
@@ -73,11 +100,21 @@ body {
 }
 
 .Slytherin {
-    background-color: #1A472A;
+    background-color: #1a472a;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease-in-out 200ms;
+}
+
+
+/* .Slytherin:hover ~ div img, .Slytherin:hover ~ .Gryffindor img {
+    scale: 0.8;
+} */
+
+.Slytherin:hover {
+    width: 150%;
 }
 
 #Ravenclaw {
@@ -91,6 +128,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease-in-out 200ms;
+}
+
+.Ravenclaw:hover {
+    width: 150%;
 }
 
 #Hufflepuff {
@@ -104,4 +146,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease-in-out 200ms;
 } 
+
+.Hufflepuff:hover {
+    width: 150%;
+}
