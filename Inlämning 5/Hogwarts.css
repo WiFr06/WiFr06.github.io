@@ -58,7 +58,7 @@ body {
     text-decoration: underline;
 }
 
-.Hogwarts-Menu:hover .Länkar {
+.Hogwarts-Menu:hover .Länkar  {
     display: block;
     /* height: 100%; */
     opacity: 1;
@@ -71,6 +71,7 @@ body {
     justify-content:space-between;
     margin-top: -15px;
 }
+
 
 
 #Gryffindor {
@@ -93,6 +94,9 @@ body {
     width: 150%;
 }
 
+/* .Gryffindor:hover ~  div img, .Gryffindor:hover ~ .Gryffindor img{
+    scale: 0.8;
+ } */
 
 #Slytherin {
     width: 300px;
@@ -111,7 +115,7 @@ body {
 
 /* .Slytherin:hover ~ div img, .Slytherin:hover ~ .Gryffindor img {
     scale: 0.8;
-} */
+ }   */
 
 .Slytherin:hover {
     width: 150%;
