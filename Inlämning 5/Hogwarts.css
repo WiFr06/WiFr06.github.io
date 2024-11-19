@@ -52,6 +52,8 @@ body {
     border-radius: 0 0 15px 15px;
     font-size: 40px;
     transition: ease-in-out 200ms;
+    margin: 0;
+    list-style: none;
 }
 
 .Länkar a:hover {
