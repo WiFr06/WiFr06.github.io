@@ -79,4 +79,8 @@ h1 {
     .Översta4 img, .Nedre2 img {
         margin: 10px auto; /*Justera marginalerna för att centrera bilderna */
     }
+
+    img {
+        max-width: 100%;
+    }
 }
