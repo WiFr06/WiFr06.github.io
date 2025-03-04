@@ -16,7 +16,6 @@ h1 {
     padding-bottom: 10px;  
     background-color: #285E2E; 
     color: white;
-    width: 100%;  
 }
 
 .Översta4 {
@@ -73,11 +72,11 @@ h1 {
 
 @media (max-width: 768px) {
     .Översta4, .Nedre2 {
-        grid-template-columns: 1fr; /*Gör så att bilderna staplas på varandra*/
+        grid-template-columns: 1fr;
     }
 
     .Översta4 img, .Nedre2 img {
-        margin: 10px auto; /*Justera marginalerna för att centrera bilderna */
+        margin: 10px auto; 
     }
 
     img {
