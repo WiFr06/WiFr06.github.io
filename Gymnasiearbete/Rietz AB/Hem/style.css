@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #403434;
+}
+.Överrad {
+    position: fixed;
+    background-color: #9A9292;
+    padding: 5px;
+    width: 100vw;
+    margin: 0;
+    border-radius: 0 0 25px 25px;
+    top: 0;
+    display: flex;
+}
+
+.Överrad > * {
+    /* background-image: linear-gradient(45deg, white, black); */
+    flex: 1 1 0;
+}
+
+.Meny {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* position: fixed; */
+    margin: 0;
+}
+
+.Länkar {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: fixed;
+    top: 90px;
+    border-radius: 25px;
+    left: 0;
+    margin-left: 0px;
+} 
+
+.Länkar a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.Länkar li {
+    margin-top: 0;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    margin-left: 0;
+}
+
+.Länkar a:hover{
+    text-decoration: underline;
+}
+
+/* .Meny:hover .Länkar {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.LänkKundvagn {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 20px;
+}
+
+#TillKundvagn {
+    width: 40px;
+    height: auto;
+    
+}
+
+h4 {
+    background-color: white;
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 25px;
+}
+
+.HemWebb {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    font-size: 20px;
+}
+
+.HemWebb a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Spel1 */
+
+#Spelframsida1 {
+    width: 230px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#kundvagn1 {
+    width: 35px;
+    height: 35px;
+}
+
+.Spel1HemWebb {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.HemWebb a:hover {
+    text-decoration-line: underline;
+}
+
+#kundvagn1 {
+
+    width: 30px;
+    height: 30px;
+    background-color: #9A9292;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    top: 5px;
+    position: relative;
+}
+
+#kundvagn-img1 {
+    max-width: 65%;
+}
+
+#kundvagn-plus1 {
+    width: 10px;
+    position: absolute;
+    left: 1px;
+    bottom: 0px;
+}
+
+/* Spel2 */
+
+#Spelframsida2 {
+    width: 230px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#kundvagn2 {
+    width: 35px;
+    height: 35px;
+}
+
+.Spel2HemWebb {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kundvagn2 {
+
+    width: 30px;
+    height: 30px;
+    background-color: #9A9292;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    top: 5px;
+    position: relative;
+}
+
+#kundvagn-img2 {
+    max-width: 65%;
+}
+
+#kundvagn-plus2 {
+    width: 10px;
+    position: absolute;
+    left: 1px;
+    bottom: 0px;
+}
+
+/* Spel3 */
+
+#Spelframsida3 {
+    width: 230px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#kundvagn3 {
+    width: 35px;
+    height: 35px;
+}
+
+.Spel3HemWebb {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kundvagn3 {
+
+    width: 30px;
+    height: 30px;
+    background-color: #9A9292;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    top: 5px;
+    position: relative;
+}
+
+#kundvagn-img3 {
+    max-width: 65%;
+}
+
+#kundvagn-plus3 {
+    width: 10px;
+    position: absolute;
+    left: 1px;
+    bottom: 0px;
+}
+
+/* Spel4 */
+
+#Spelframsida4 {
+    width: 230px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#kundvagn4 {
+    width: 35px;
+    height: 35px;
+}
+
+.Spel4HemWebb {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kundvagn4 {
+
+    width: 30px;
+    height: 30px;
+    background-color: #9A9292;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    top: 5px;
+    position: relative;
+}
+
+#kundvagn-img4 {
+    max-width: 65%;
+}
+
+#kundvagn-plus4 {
+    width: 10px;
+    position: absolute;
+    left: 1px;
+    bottom: 0px;
+}
+
+.KundvagnBakom {
+    z-index: -1;
+}
+
+.OmRietzAB {
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+p {
+width: 33%;
+text-align: center;
+}
+
+h6 {
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
+
+.Kontakt {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Kontakt2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.Kundtjänst {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+
+.Meny {
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+.Länkar {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    opacity: 0;
+    color: white; 
+    position: absolute;
+    padding: 0;
+    left: -15px;
+    width: 100%;
+    /* z-index: -9000; */
+    /* margin: 0; */
+    top: -500%;
+    transition: ease-in-out 500ms;
+    
+}
+
+.Meny:hover > .Länkar{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    /* height: auto; */
+    /* z-index: 100; */
+    top: 75px;
+
+}
+
